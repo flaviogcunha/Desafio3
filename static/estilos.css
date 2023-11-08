@@ -4,8 +4,42 @@ height: 10%; width: 20%;
 justify-content: center;
 }
 .custom-navbar {
-    height: 100px;
+    height: 110px;
 }
 h5{
     font-size: 25px;
+}
+.navbar-nav .nav-item {
+    margin-right: 30px;
+}
+#carouselExample {
+    width: 1000px; 
+    height: 700px; 
+    margin-top: 50px;
+   
+ 
+}
+.image-container {
+    display: flex; /* Usar flexbox para colocar as imagens lado a lado */
+    justify-content: center; /* Centralizar as imagens horizontalmente */
+    align-items: center; /* Centralizar as imagens verticalmente */
+}
+.jogos
+{
+    margin-bottom: 80px;
+}
+.bordas
+{
+    border: 10px solid black;
+}
+.bordas2
+{
+    margin-right: 50px;
+    border: 10px solid black;  
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: gold;
+    margin-bottom: 40px;
 }
