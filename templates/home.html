@@ -4,75 +4,93 @@
     <link rel="stylesheet" href="/static/css/bootstrap.css">
     <link rel="stylesheet" href="/static/estilos.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Meu Santastico</title>
 </head>
 
 
 <body>
-   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary custom-navbar "navbar bg-primary data-bs-theme="dark">
+  <header>
+    <nav class="navbar bg-primary navbar-expand-lg bg-dark">
         <div class="container">
             <a class="navbar-brand">
-                <img src="/static/IMG/santos.png" alt="Logo" width="90" height="74" class="d-inline-block align-text-top"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/"><h5>Pagina inicial</h5></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><h5>Jogos Marcantes</h5></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <h5>Titulos</h5>
-                </a>    
-              </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><h5>Noticias</h5></a>
-                </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-          </div>
+                <img src="/static/IMG/santos.png" alt="Logo" width="90" height="74" class="d-inline-block align-text-top img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="/"><h5>Pagina inicial</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><h5>Jogos Marcantes</h5></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <h5>Titulos</h5>
+                        </a>
+                        <!-- Dropdown menu goes here -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><h5>Noticias</h5></a>
+                    </li>
+                </ul>
+                <form class="d-flex flex-grow-1" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
         </div>
-      </nav>
-   </header>
+    </nav>
+</header>
 
 
-   <main>
-    <div id="carouselExample" class="carousel slide mx-auto">
-      <div class="carousel-inner bordas">
-        <div class="carousel-item active">
-          <img src="/static/IMG/pedalada.png" class="d-block w-100" alt="pedaladas">
+
+<main>
+
+<div class="d-flex flex-column align-items-center justify-content-center">
+  <div class="row">
+    <div class="col">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <img src="/static/IMG/pedalada.png" class="d-block w-100 img-fluid" alt="pedaladas">
+            </div>
+            <div class="carousel-item">
+                <img src="/static/IMG/jean.png" class="d-block w-100 img-fluid" alt="jeanlucas" >
+            </div>
+            <div class="carousel-item">
+                <img src="/static/IMG/campeao.png" class="d-block w-100 img-fluid" alt="campeao">
+            </div>
         </div>
-        <div class="carousel-item">
-          <img src="/static/IMG/jean.png" class="d-block w-100" alt="jeanlucas" >
-        </div>
-        <div class="carousel-item">
-          <img src="/static/IMG/campeao.png" class="d-block w-100" alt="campeao">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <h1>Proximas Partidas</h1>
-    <div class="image-container mx-auto jogos">
-      <img src="/static/IMG/goias.png" alt="goias" class="bordas2">
-      <img src="/static/IMG/sao.png" alt="saopaulo" class="bordas">
+    </div>
   </div>
-  </main>
+  
+    
+    <h1>Proximas Partidas</h1>
+  <div class="row">
+    <div class="col-md-6">
+        <img src="/static/IMG/goias.png" alt="goias" class="bordas2">
+    </div>
+    <div class="col-md-6">
+        <img src="/static/IMG/sao.png" alt="saopaulo" class="bordas">
+    </div>
+  
+  </div>
+</div>
+</main>
+
   
 
     <footer class="bg-dark py-3 my-4">

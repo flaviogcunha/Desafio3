@@ -12,10 +12,23 @@ h5{
 .navbar-nav .nav-item {
     margin-right: 30px;
 }
+@media only screen and (min-width: 768px) and (max-width: 1185px){
+    .bordas{
+        width: 350px;
+    }
+    .bordas2{
+        width: 350px;
+    }
+    #carouselExample {
+        width: 700px !important;
+        height: 600px !important;
+    }
+}
 #carouselExample {
-    width: 1000px; 
-    height: 700px; 
+    width: 800px; 
+    height: 400px; 
     margin-top: 50px;
+    border: 10px solid black;
    
  
 }
@@ -30,10 +43,12 @@ h5{
 }
 .bordas
 {
+    
     border: 10px solid black;
+    
 }
 .bordas2
-{
+{   
     margin-right: 50px;
     border: 10px solid black;  
 }
@@ -42,4 +57,8 @@ h1{
     font-size: 50px;
     color: gold;
     margin-bottom: 40px;
+    margin-top: 180px;
+}
+.carrosell{
+    justify-items: center;
 }
