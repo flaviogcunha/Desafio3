@@ -8,6 +8,9 @@
     <title>Meu Santastico</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 
@@ -51,62 +54,43 @@
 
 
 <main>
-
-    <div class="d-flex flex-column align-items-center justify-content-center">
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/static/IMG/pedalada.png" class="d-block w-100 img-fluid" alt="pedaladas">
-                <div class="carousel-caption">
-                  <h5>Santos x Corintians 2002</h5>
-                  <p>Jogos Historicos</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="/static/IMG/jean.png" class="d-block w-100 img-fluid" alt="jeanlucas">
-                <div class="carousel-caption">
-                  <h5>Santos x Cuiaba 32° Rodada</h5>
-                  <p>Santos empata sem gols contra Cuiaba</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="/static/IMG/campeao.png" class="d-block w-100 img-fluid" alt="campeao">
-                <div class="carousel-caption">
-                  <h5>Titulos Historicos</h5>
-                  <p>Ultimo titulo do Santos Fc</p>
-                </div>
-              </div>
+    <div>
+      <h2><P class="text-center mt-3">Meu Santastico</P></h2>
+    </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <div class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active img-fluid">
+              <img src="/static/IMG/pedalada.png" class="d-block w-100" alt="Robinho">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item img-fluid">
+              <img src="/static/IMG/jean.png" class="d-block w-100" alt="jean">
+            </div>
+            <div class="carousel-item img-fluid">
+              <img src="/static/IMG/campeao.png" class="d-block w-100" alt="gabigol">
+            </div>
           </div>
-        </div>
-      </div>
-  
-      <h1>Próximas Partidas</h1>
-      <div class="row foote">
-        <div class="col-md-6">
-          <img src="/static/IMG/goias.png" alt="goias" class="bordas2">
-        </div>
-        <div class="col-md-6">
-          <img src="/static/IMG/sao.png" alt="saopaulo" class="bordas">
+          <a class="carousel-control-prev" href=".carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+          </a>
+          <a class="carousel-control-next" href=".carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+          </a>
         </div>
       </div>
     </div>
-  </main>
-  
+  </div>
+</main>
 
   
+   
+  
 
-    <footer class="bg-dark py-3 my-4 text-center ">
+    <footer class="bg-dark py-3 mt-4 text-center">
       <div class="container-fluid">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
               <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Instagram</a></li>
