@@ -81,3 +81,52 @@ h1{
     height: 600;
 }
 
+@media (max-width: 1265px) {
+    .jgs {
+      width: 400px; /* Ajuste a largura conforme necessário para o seu layout */
+    }
+  }
+  .h12
+  {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
+  
+
+  .containerss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-containers {
+    text-align: center;
+    background-color: rgb(255, 255, 255); /* Adiciona fundo branco */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border: 1px solid #000000; /* Adiciona uma borda cinza */
+    border-radius: 8px;
+}
+
+.image-containers img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.image-containers h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #555;
+}
+
+.image-containers p {
+    font-size: 16px;
+    color: #333;
+}
